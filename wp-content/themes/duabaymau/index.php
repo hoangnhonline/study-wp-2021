@@ -37,7 +37,7 @@
     <!-- banner-section -->
     <?php get_sidebar('banner-section'); ?>
     <!-- banner-section end -->
-
+    <?php //get_sidebar(); ?>
 
     <!-- info-section -->
     <section class="info-section">
@@ -794,94 +794,3 @@
     <!-- main-footer -->
    	<?php get_footer(); ?>
     <!-- main-footer end -->
-
-
-
-    <!--Scroll to top-->
-    <button class="scroll-top scroll-to-target" data-target="html">
-        <span class="fa fa-arrow-up"></span>
-    </button>
-
-
-    <!-- sidebar cart item -->
-    <div class="xs-sidebar-group info-group info-sidebar">
-        <div class="xs-overlay xs-bg-black"></div>
-        <div class="xs-sidebar-widget">
-            <div class="sidebar-widget-container">
-                <div class="widget-heading">
-                    <a href="#" class="close-side-widget">X</a>
-                </div>
-                <div class="sidebar-textwidget">
-                <div class="sidebar-info-contents">
-                    <div class="content-inner">
-                        <div class="upper-box">
-                            <div class="logo">
-                                <a href="index.html"><img src="http://wp.local/wp-content/themes/duabaymau/assets/images/sidebar-logo.png" alt="" /></a>
-                            </div>
-                            <div class="text">
-                                <p>Exercitation ullamco laboris nis aliquip sed conseqrure dolorn repreh deris ptate velit ecepteur duis.</p>
-                            </div>
-                        </div>
-                        <div class="side-menu-box">
-                            <div class="side-menu">
-                                <nav class="menu-box">
-                                    <div class="menu-outer">
-                                        
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="info-box">
-                            <h3>Get in touch</h3>
-                            <ul class="info-list clearfix">
-                                <li><i class="fas fa-map-marker-alt"></i>838 Andy Street, Madison, NJ</li>
-                                <li><i class="fas fa-envelope"></i><a href="mailto:support@my-domain.com">support@my-domain.com</a></li>
-                                <li><i class="fas fa-headphones-alt"></i><a href="tel:101005200369">+1  0100 5200 369</a></li>
-                                <li><i class="far fa-clock"></i>Monday to Friday: 9am - 6pm</li>
-                            </ul>
-                            <form action="contact.html" method="post" class="subscribe-form">
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Email address" required="">
-                                    <button type="submit" class="theme-btn style-one">subscribe now</button>
-                                </div>
-                            </form>
-                            <ul class="social-links clearfix">
-                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END sidebar widget item -->
-
-
-<!-- jequery plugins -->
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/jquery.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/popper.min.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/bootstrap.min.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/owl.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/wow.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/validation.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/jquery.fancybox.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/appear.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/jquery.countTo.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/scrollbar.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/nav-tool.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/TweenMax.min.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/circle-progress.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/jquery.nice-select.min.js"></script>
-
-<!-- main-js -->
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/script.js"></script>
-
-</body><!-- End of .page_wrapper -->
-</html>

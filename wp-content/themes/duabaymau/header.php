@@ -4,10 +4,27 @@
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
 <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
-<link rel="profile" href="https://gmpg.org/xfn/11" />
-<?php wp_head(); ?>
+<link rel="icon" href="http://wp.local/wp-content/themes/duabaymau/assets/images/favicon.ico" type="image/x-icon">
+
+
+<!-- Fav Icon -->
+<link rel="icon" href="http://wp.local/wp-content/themes/duabaymau/assets/images/favicon.ico" type="image/x-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i&display=swap" rel="stylesheet">
+
+<!-- Stylesheets -->
+<link href="http://wp.local/wp-content/themes/duabaymau/assets/css/font-awesome-all.css" rel="stylesheet">
+<link href="http://wp.local/wp-content/themes/duabaymau/assets/css/flaticon.css" rel="stylesheet">
+<link href="http://wp.local/wp-content/themes/duabaymau/assets/css/owl.css" rel="stylesheet">
+<link href="http://wp.local/wp-content/themes/duabaymau/assets/css/bootstrap.css" rel="stylesheet">
+<link href="http://wp.local/wp-content/themes/duabaymau/assets/css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="http://wp.local/wp-content/themes/duabaymau/assets/css/animate.css" rel="stylesheet">
+<link href="http://wp.local/wp-content/themes/duabaymau/assets/css/color.css" rel="stylesheet">
+<link href="http://wp.local/wp-content/themes/duabaymau/assets/css/rtl.css" rel="stylesheet">
+<link href="http://wp.local/wp-content/themes/duabaymau/assets/css/style.css" rel="stylesheet">
+<link href="http://wp.local/wp-content/themes/duabaymau/assets/css/responsive.css" rel="stylesheet">
 </head>
 
 
