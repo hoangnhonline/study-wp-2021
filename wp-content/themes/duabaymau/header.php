@@ -25,6 +25,7 @@
 <link href="http://wp.local/wp-content/themes/duabaymau/assets/css/rtl.css" rel="stylesheet">
 <link href="http://wp.local/wp-content/themes/duabaymau/assets/css/style.css" rel="stylesheet">
 <link href="http://wp.local/wp-content/themes/duabaymau/assets/css/responsive.css" rel="stylesheet">
+<link href="http://wp.local/wp-content/themes/duabaymau/assets/css/customize.css" rel="stylesheet">
 </head>
 
 
@@ -75,14 +76,14 @@
     </div>
     <!-- search-popup end -->
 <header class="main-header style-one">
-    <?php get_sidebar('header-top'); ?>
+    <?php require_once DUABAYMAU_THEME_INC_DIR.'/header-top.php'; ?>
     <div class="header-lower">
         <div class="auto-container">
             <div class="outer-box clearfix">
                 <div class="logo-box pull-left">
                     <figure class="logo"><a href="index.html"><img src="http://wp.local/wp-content/themes/duabaymau/assets/images/logo.png" alt=""></a></figure>
                 </div>
-                <?php get_sidebar('main-menu'); ?>
+                <?php require_once DUABAYMAU_THEME_INC_DIR.'/main-menu.php'; ?>
             </div>
         </div>
     </div>
@@ -103,3 +104,30 @@
         </div>
     </div>
 </header>
+<!-- Mobile Menu  -->
+<div class="mobile-menu">
+    <div class="menu-backdrop"></div>
+    <div class="close-btn"><i class="fas fa-times"></i></div>
+    
+    <nav class="menu-box">
+        <div class="nav-logo"><a href="index.html"><img src="http://wp.local/wp-content/themes/duabaymau/assets/images/mobile-logo.png" alt="" title=""></a></div>
+        <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+        <div class="contact-info">
+            <h4>Contact Info</h4>
+            <ul>
+                <li>Chicago 12, Melborne City, USA</li>
+                <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                <li><a href="mailto:info@example.com">info@example.com</a></li>
+            </ul>
+        </div>
+        <div class="social-links">
+            <ul class="clearfix">
+                <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
+                <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
+                <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
+                <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+</div><!-- End Mobile Menu -->

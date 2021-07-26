@@ -1,12 +1,8 @@
 <?php
-/*
-<!-- Fav Icon -->
-<link rel="icon" href="http://wp.local/wp-content/themes/duabaymau/assets/images/favicon.ico" type="image/x-icon">
-
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i&display=swap" rel="stylesheet">
-
-*/
+define('DUABAYMAU_THEME_URL', get_template_directory_uri());
+define('DUABAYMAU_THEME_DIR', get_template_directory());
+define('DUABAYMAU_THEME_INC_DIR', DUABAYMAU_THEME_DIR.'/inc');
+define('DUABAYMAU_THEME_WIDGET_DIR', DUABAYMAU_THEME_DIR.'/widgets');
 
 add_action('widgets_init', 'duabaymau_widgets_init');
 
@@ -81,28 +77,8 @@ function duabaymau_register_styles() {
 	wp_enqueue_style( 'duabaymau_responsive');
 
 }
-/*
-<!-- jequery plugins -->
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/jquery.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/popper.min.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/bootstrap.min.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/owl.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/wow.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/validation.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/jquery.fancybox.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/appear.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/jquery.countTo.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/scrollbar.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/nav-tool.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/TweenMax.min.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/circle-progress.js"></script>
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/jquery.nice-select.min.js"></script>
 
-<!-- main-js -->
-<script src="http://wp.local/wp-content/themes/duabaymau/assets/js/script.js"></script>
-*/
-
-add_action( 'wp_enqueue_scripts', 'duabaymau_register_js' );
+//add_action( 'wp_enqueue_scripts', 'duabaymau_register_js' );
 
 function duabaymau_register_js() {
 	
